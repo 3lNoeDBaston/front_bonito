@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.cabeza{
+    background-color: #ADD8E6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 80px;
+}
