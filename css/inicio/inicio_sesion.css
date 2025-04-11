@@ -21,11 +21,12 @@ h1{
 .nose {
     border: 5px solid;
     border-image: linear-gradient(#98A879, #F25E5E) 1;
-    width: 50%;
+    width: 40%;
+    height: 500px;
     display: grid;
     place-items: center;
-    margin-left: 25%;
-    margin-top: 3%;
+    margin-left: 30%;
+    margin-top: 60px;
 }
 
 h2{
@@ -41,16 +42,16 @@ form{
 
 
 input{
-    border: .5px solid #F25E5E;
+    border: 2px solid #F25E5E;
     width: 450px;
     height: 40px;
-    border-radius: 2px;
+    border-radius: 12px;
     padding: 6px;
     margin-top: 4vh;
 }
 
 input:focus{
-    border: .5px solid #C4DB97;
+    border: 2px solid #C4DB97;
     outline: 1px solid #C4DB97;
 }
 
@@ -58,8 +59,7 @@ input:focus{
 .separador{
     border: none;
     border-top: 3px solid #C4DB97;
-    width: 25%;
-    margin-top: 30px;
+    width: 80%;
 }
 
 .iniciar{
@@ -67,13 +67,37 @@ input:focus{
     height: 30px;
     margin-top: 6vh;
     background: none;
-    border: 1px solid #F25E5E;
-    border-radius: 3px;
+    border: 1.5px solid #F25E5E;
+    border-radius: 16px;
     color: #F25E5E;
 }
 
 .iniciar:hover{
     background: white;
     color: #000000;
-    border: 1px solid #197dee;
+    border: 1.5px solid #197dee;
+}
+
+
+.crearCuenta{
+    display: inline-flex;
+}
+
+.crear{
+    width: 150px;
+    margin-left: 25px;
+    height: 25px;
+    border: 1.5px solid #F25E5E;
+    color: #F25E5E;
+    border-radius: 16px;
+}
+
+.crear:hover{
+    background: white;
+    color: #000000;
+    border: 1.5px solid #197dee;
+}
+
+p{
+    font-size: 16px;
 }
